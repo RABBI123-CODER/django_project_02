@@ -1,0 +1,8 @@
+from django.http import HttpResponse
+from django.shortcuts import render
+
+# Create your views here.
+
+
+def rabbi_001(request):
+    return HttpResponse('<h1>this is rabbi_001 app and it is my project..</h1>')
